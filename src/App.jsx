@@ -281,9 +281,9 @@ function App() {
           <div className="section-inner">
             <div className="section-header centered">
               <span className="section-label">— Live Proof</span>
-              <h2 id="video-title">A walkthrough of my Nestuge account <em>earnings.</em></h2>
+              <h2 id="video-title">A walkthrough of my Reanest account <em>earnings.</em></h2>
               <p className="section-desc">
-                Here is a raw screen recording showing my actual Nestuge dashboard, showing the direct payments and payouts generated from deploying automated systems. No screenshots—just live proof.
+                Here is a raw screen recording showing my actual Reanest (formerly Geegpay) dashboard, showing the direct payments and payouts generated from deploying automated systems. No screenshots—just live proof.
               </p>
             </div>
             <div className="video-container reveal">
