@@ -276,6 +276,22 @@ function App() {
           </div>
         </section>
 
+        {/* ═══ SCREENRECORDING / EARNINGS VIDEO SECTION ═══ */}
+        <section className="section light-section" aria-labelledby="video-title">
+          <div className="section-inner">
+            <div className="section-header centered">
+              <span className="section-label">— Live Proof</span>
+              <h2 id="video-title">A walkthrough of my Nestuge account <em>earnings.</em></h2>
+              <p className="section-desc">
+                Here is a raw screen recording showing my actual Nestuge dashboard, showing the direct payments and payouts generated from deploying automated systems. No screenshots—just live proof.
+              </p>
+            </div>
+            <div className="video-container reveal">
+              <video src="/assets/nestuge-earnings.mp4" controls preload="metadata" playsInline></video>
+            </div>
+          </div>
+        </section>
+
         {/* ═══ PROJECTS ═══ */}
         <section id="projects" className="section dark-section" aria-labelledby="projects-title">
           <div className="section-inner">

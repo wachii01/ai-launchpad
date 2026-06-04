@@ -583,6 +583,21 @@ h2 {
   letter-spacing: 0.04em;
 }
 
+/* ═══ EARNINGS VIDEO SECTION ═══ */
+.video-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid var(--border-dark);
+  background: var(--bg-card);
+  padding: 12px;
+  box-shadow: var(--shadow-card);
+}
+.video-container video {
+  width: 100%;
+  display: block;
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
 /* ═══ PROJECTS TIMELINE ═══ */
 .project-timeline {
   display: grid;
