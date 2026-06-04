@@ -77,9 +77,8 @@ function App() {
     <>
       {/* ═══ NAVBAR ═══ */}
       <header className="site-header" id="top">
-        <a className="brand" href="#top" aria-label="AI Automation Launchpad home">
-          <span className="brand-mark">AI</span>
-          <span>Automation Launchpad</span>
+        <a className="brand" href="#top" aria-label="Wachi Automations home">
+          <img src="/assets/wachi-logo.png" alt="Wachi Automations" className="brand-logo" />
         </a>
         <div className="reg-badge" aria-label="Enrollment status">
           <span className="pulse-dot"></span>

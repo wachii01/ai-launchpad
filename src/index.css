@@ -134,17 +134,13 @@ a {
   color: var(--white);
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  background: var(--orange);
-  border-radius: 0px; /* Removed rounded corners */
-  color: var(--bg-black);
-  font-weight: 800;
-  font-size: 0.85rem;
-  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+.brand-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  filter: invert(1);
+  mix-blend-mode: screen;
+  margin: -8px 0;
 }
 
 .reg-badge {
