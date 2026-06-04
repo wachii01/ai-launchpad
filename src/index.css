@@ -44,7 +44,8 @@ body {
   background-color: var(--bg-black);
   color: var(--text-light);
   font-family: var(--font-body);
-  line-height: 1.6;
+  font-size: 1.05rem;
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   position: relative;
   overflow-x: hidden;
@@ -236,9 +237,9 @@ h1 em, h2 em {
   margin: 22px 0 0;
   max-width: 560px;
   color: var(--text-light-muted);
-  font-size: 1.05rem;
+  font-size: 1.18rem;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.75;
 }
 
 .info-cards {
@@ -394,8 +395,8 @@ h2 {
 
 .section-desc {
   max-width: 560px;
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 1.08rem;
+  line-height: 1.75;
   color: var(--text-light-muted);
   font-weight: 400;
 }
@@ -476,8 +477,8 @@ h2 {
 }
 .pain-card p {
   color: var(--text-light-muted);
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 /* ═══ BEFORE / AFTER ═══ */
@@ -513,7 +514,7 @@ h2 {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  font-size: 0.95rem;
+  font-size: 1.06rem;
   color: var(--text-light);
 }
 
@@ -636,8 +637,8 @@ h2 {
 }
 .timeline-content p {
   color: var(--text-light-muted);
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 .card-tags {
   display: flex;
@@ -705,8 +706,8 @@ h2 {
 }
 .audience-card p {
   color: var(--text-light);
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: 1.06rem;
+  line-height: 1.7;
   padding-left: 12px;
 }
 
@@ -727,11 +728,11 @@ h2 {
 }
 .value-row span {
   font-weight: 500;
-  font-size: 0.92rem;
+  font-size: 1.04rem;
   color: var(--text-light);
 }
 .value-row strong {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--white);
   white-space: nowrap;
@@ -782,8 +783,8 @@ h2 {
   max-width: 440px;
   margin: 14px auto 0;
   color: var(--text-light-muted);
-  font-size: 0.88rem;
-  line-height: 1.6;
+  font-size: 1.02rem;
+  line-height: 1.65;
 }
 .cta-stats {
   display: grid;
@@ -882,8 +883,8 @@ h2 {
 
 .faq-content p {
   color: var(--text-light-muted);
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 /* ═══ PROOF / WINS SECTION ═══ */
@@ -922,8 +923,8 @@ h2 {
 }
 .proof-card p {
   color: var(--text-light-muted);
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 1.08rem;
+  line-height: 1.75;
 }
 .proof-img-container {
   display: flex;
