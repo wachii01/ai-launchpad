@@ -374,18 +374,29 @@ function App() {
           </div>
         </section>
 
-        {/* ═══ SCREENRECORDING / EARNINGS VIDEO ═══ */}
-        <section className="section light-section" aria-labelledby="video-title">
+        {/* ═══ REANEST TRANSACTION SCREENSHOTS ═══ */}
+        <section className="section light-section" aria-labelledby="reanest-title">
           <div className="section-inner">
             <div className="section-header centered">
               <span className="section-label">— Live Proof</span>
-              <h2 id="video-title">A walkthrough of my Reanest account <em>earnings.</em></h2>
+              <h2 id="reanest-title">Real transactions. Real dollars. My Reanest <em>account.</em></h2>
               <p className="section-desc">
-                Here is a raw screen recording showing my actual Reanest (formerly Geegpay) dashboard — the direct payments and payouts generated from deploying automated systems. No screenshots — just live proof.
+                These are direct screenshots from my Reanest (formerly Geegpay) dashboard — the actual payments received and withdrawn from deploying automated systems for clients.
               </p>
             </div>
-            <div className="video-container reveal">
-              <video src="/assets/nestuge-earnings.mp4" controls preload="metadata" playsInline></video>
+            <div className="proof-months-stack">
+              <div className="month-stack-item reveal">
+                <div className="month-stack-label">Reanest — Transactions ($2,500 received)</div>
+                <img src="/assets/reanest-1.png" alt="Reanest transaction showing $2,500 incoming payment for automation services" />
+              </div>
+              <div className="month-stack-item reveal">
+                <div className="month-stack-label">Reanest — Transactions ($3,500 received)</div>
+                <img src="/assets/reanest-2.png" alt="Reanest transaction showing $3,500 incoming payment for automation services" />
+              </div>
+              <div className="month-stack-item reveal">
+                <div className="month-stack-label">Reanest — Transactions ($3,000 received)</div>
+                <img src="/assets/reanest-3.png" alt="Reanest transaction showing $3,000 incoming payment for automation services" />
+              </div>
             </div>
           </div>
         </section>
