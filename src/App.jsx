@@ -149,9 +149,6 @@ function App() {
               </div>
               <p className="trust-note">Full refund available within 48 hours of payment</p>
             </div>
-            <aside className="hero-panel reveal" aria-label="Mentorship flyer">
-              <img src="/assets/ai-automation-launchpad.jpeg" alt="AI Automation Launchpad mentorship flyer with Elewachi Emmanuel" />
-            </aside>
           </div>
         </section>
 
@@ -305,33 +302,42 @@ function App() {
         {/* ═══ SOLUTION SECTION ═══ */}
         <section className="section light-section" aria-labelledby="solution-title">
           <div className="section-inner">
-            <div className="section-header centered">
-              <span className="section-label">— The Solution</span>
-              <h2 id="solution-title">A guided build sprint that takes you from <em>"I'm learning automation"</em> to <em>"these are the systems I built."</em></h2>
-              <p className="section-desc">
-                The AI Automation Launchpad is not a video course. There are no 47-module libraries you'll never finish. No certificates that prove nothing.
-              </p>
-            </div>
-            <div className="solution-pillars">
-              <div className="solution-pillar reveal">
-                <span className="pillar-num">4</span>
-                <div>
-                  <strong>Weeks. Live.</strong>
-                  <p>Three sessions a week. Small group of 20 so nobody gets lost.</p>
-                </div>
+            <div className="solution-layout">
+              {/* Left: flyer */}
+              <div className="solution-flyer reveal">
+                <img src="/assets/ai-automation-launchpad.jpeg" alt="AI Automation Launchpad mentorship flyer with Elewachi Emmanuel" />
               </div>
-              <div className="solution-pillar reveal">
-                <span className="pillar-num">→</span>
-                <div>
-                  <strong>Clear sequence first.</strong>
-                  <p>Understand the business problem. Design the workflow. Build the system. Test it. Package it for a client. That order matters — and most courses skip it entirely.</p>
+              {/* Right: text + pillars */}
+              <div className="solution-content">
+                <div className="section-header">
+                  <span className="section-label">— The Solution</span>
+                  <h2 id="solution-title">A guided build sprint that takes you from <em>"learning"</em> to <em>"these are the systems I built."</em></h2>
+                  <p className="section-desc">
+                    The AI Automation Launchpad is not a video course. There are no 47-module libraries you'll never finish. No certificates that prove nothing.
+                  </p>
                 </div>
-              </div>
-              <div className="solution-pillar reveal">
-                <span className="pillar-num">5</span>
-                <div>
-                  <strong>Portfolio systems built.</strong>
-                  <p>By the end, you won't say "I attended a mentorship." You'll say: "These are the automation systems I built — and this is what they solve."</p>
+                <div className="solution-pillars">
+                  <div className="solution-pillar reveal">
+                    <span className="pillar-num">4</span>
+                    <div>
+                      <strong>Weeks. Live.</strong>
+                      <p>Three sessions a week. Small group of 20 so nobody gets lost.</p>
+                    </div>
+                  </div>
+                  <div className="solution-pillar reveal">
+                    <span className="pillar-num">→</span>
+                    <div>
+                      <strong>Clear sequence first.</strong>
+                      <p>Understand the business problem. Design the workflow. Build the system. Test it. Package it for a client. That order matters — and most courses skip it entirely.</p>
+                    </div>
+                  </div>
+                  <div className="solution-pillar reveal">
+                    <span className="pillar-num">5</span>
+                    <div>
+                      <strong>Portfolio systems built.</strong>
+                      <p>By the end, you won't say "I attended a mentorship." You'll say: "These are the automation systems I built — and this is what they solve."</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
