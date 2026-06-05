@@ -807,7 +807,7 @@ function App() {
             </div>
             <div className="faq-list">
               {faqData.map((faq, index) => (
-                <div key={index} className={`faq-item reveal ${openFaqIndex === index ? 'open' : ''}`}>
+                <div key={index} className={`faq-item ${openFaqIndex === index ? 'open' : ''}`}>
                   <button className="faq-header" onClick={() => toggleFaq(index)} aria-expanded={openFaqIndex === index}>
                     <span>{faq.question}</span>
                     <span className="faq-icon">{openFaqIndex === index ? '−' : '+'}</span>
