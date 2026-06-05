@@ -201,15 +201,18 @@ function App() {
                 <p>
                   This isn't a side gig where you make money once and wonder what's next. Because businesses need continuous optimization, they stay with you. Here is the income generated directly from automation services over March, April, and May 2026.
                 </p>
-                <div className="proof-three-months">
-                  <div className="month-stat-card">
-                    <img src="/assets/win-mar.png" alt="March 2026 automation income statement" />
+                <div className="proof-months-stack">
+                  <div className="month-stack-item">
+                    <div className="month-stack-label">Mar 2026 — In: ₦924,594</div>
+                    <img src="/assets/win-mar.png" alt="March 2026 — ₦924,594 automation income" />
                   </div>
-                  <div className="month-stat-card">
-                    <img src="/assets/win-apr.png" alt="April 2026 automation income statement" />
+                  <div className="month-stack-item">
+                    <div className="month-stack-label">Apr 2026 — In: ₦920,204</div>
+                    <img src="/assets/win-apr.png" alt="April 2026 — ₦920,204 automation income" />
                   </div>
-                  <div className="month-stat-card">
-                    <img src="/assets/win-may.png" alt="May 2026 automation income statement" />
+                  <div className="month-stack-item">
+                    <div className="month-stack-label">May 2026 — In: ₦851,861</div>
+                    <img src="/assets/win-may.png" alt="May 2026 — ₦851,861 automation income" />
                   </div>
                 </div>
               </div>
