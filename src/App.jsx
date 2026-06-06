@@ -75,12 +75,14 @@ function App() {
 
   const tickerItems = [
     'AI Automation Launchpad',
+    '🗓 Starts June 15, 2026',
     'Only 20 Seats',
     'Cohort 1.0',
     'Build Real Systems',
     'Get Client-Ready',
     '₦50,000 Entry',
     '4 Weeks · 3x Weekly · 8PM',
+    '🗓 Starts June 15, 2026',
   ]
 
   return (
@@ -115,6 +117,7 @@ function App() {
         <section className="hero dark-section">
           <div className="hero-inner">
             <div className="hero-copy reveal">
+              <div className="start-date-badge">🗓 Cohort 1.0 starts <strong>June 15, 2026</strong> — 9 days away</div>
               <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 20 Slots Only</span>
               <h1>
                 I built <em>₦8 Million</em> in automation income from scratch.<br />
@@ -124,9 +127,9 @@ function App() {
                 A hands-on 4-week cohort where you stop consuming content and start building real systems — the kind businesses understand, need, and pay for. No prior experience required.
               </p>
               <div className="info-cards">
-                <div className="info-card">
-                  <span className="info-label">Duration</span>
-                  <strong>4 Weeks</strong>
+                <div className="info-card info-card-date">
+                  <span className="info-label">Starts</span>
+                  <strong>June 15, 2026</strong>
                 </div>
                 <div className="info-card">
                   <span className="info-label">Sessions</span>
@@ -771,6 +774,7 @@ function App() {
               </p>
             </div>
             <div className="cta-card reveal">
+              <div className="cta-start-date">🗓 &nbsp;Cohort 1.0 kicks off <strong>June 15, 2026</strong></div>
               <span className="cta-meta">Limited Cohort · 20 Slots Only</span>
               <div className="cta-price">₦50,000</div>
               <p className="cta-sub">20 slots. Not 50. Not 100. Twenty — because feedback is personal and attention matters. When this fills, enrollment closes. The next cohort will cost more. Cohort 1.0 pricing doesn't come back.</p>

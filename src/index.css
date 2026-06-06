@@ -1116,6 +1116,61 @@ h2 {
   border-right: 1px solid var(--border-dark);
   border-bottom: 1px solid var(--border-dark);
 }
+/* ═══ START DATE BADGE (hero) ═══ */
+.start-date-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  margin-bottom: 18px;
+  background: linear-gradient(135deg, rgba(249,115,22,0.15), rgba(249,115,22,0.06));
+  border: 1px solid rgba(249,115,22,0.4);
+  border-radius: 0;
+  font-family: var(--font-heading);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--orange);
+  letter-spacing: 0.01em;
+  box-shadow: 0 0 24px rgba(249,115,22,0.12);
+  animation: date-pulse 3s ease-in-out infinite;
+}
+.start-date-badge strong {
+  color: var(--white);
+  font-weight: 800;
+}
+@keyframes date-pulse {
+  0%, 100% { box-shadow: 0 0 24px rgba(249,115,22,0.12); border-color: rgba(249,115,22,0.4); }
+  50% { box-shadow: 0 0 36px rgba(249,115,22,0.25); border-color: rgba(249,115,22,0.65); }
+}
+
+/* Info card with orange highlight for start date */
+.info-card-date {
+  border-color: rgba(249,115,22,0.35) !important;
+  background: rgba(249,115,22,0.07) !important;
+}
+.info-card-date strong {
+  color: var(--orange) !important;
+  font-size: 0.8rem !important;
+}
+
+/* ═══ START DATE in CTA card ═══ */
+.cta-start-date {
+  width: calc(100% + 88px);
+  margin: -48px -44px 28px -44px;
+  padding: 14px 20px;
+  background: var(--orange);
+  color: var(--bg-black);
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.cta-start-date strong {
+  font-weight: 900;
+  font-size: 1rem;
+}
+
 .cta-meta {
   display: inline-flex;
   padding: 5px 14px;
