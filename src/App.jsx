@@ -142,7 +142,7 @@ function App() {
                 </div>
               </div>
               <div className="hero-actions">
-                <a className="primary-button btn-premium" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer" id="hero-cta">
+                <a className="primary-button btn-premium" href="#enroll" id="hero-cta">
                   <span className="btn-text">Yes, I Want In — ₦50,000</span>
                   <span className="btn-arrow">→</span>
                 </a>
@@ -761,7 +761,7 @@ function App() {
         </div>
 
         {/* ═══ SECURE YOUR SLOT (CTA) ═══ */}
-        <section className="section light-section cta-section" aria-labelledby="offer-title">
+        <section id="enroll" className="section light-section cta-section" aria-labelledby="offer-title">
           <div className="section-inner">
             <div className="section-header centered">
               <span className="section-label">— Secure Your Slot</span>
