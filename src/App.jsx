@@ -38,6 +38,19 @@ function App() {
     setOpenFaqIndex(openFaqIndex === index ? null : index)
   }
 
+  // Dynamic countdown to June 15, 2026
+  const getDaysUntilLaunch = () => {
+    const launch = new Date('2026-06-15T00:00:00')
+    const today = new Date()
+    today.setHours(0, 0, 0, 0)
+    const diff = Math.round((launch - today) / (1000 * 60 * 60 * 24))
+    if (diff > 1) return `${diff} days away`
+    if (diff === 1) return 'tomorrow!'
+    if (diff === 0) return 'happening today! 🔥'
+    return 'already started'
+  }
+  const launchCountdown = getDaysUntilLaunch()
+
   const faqData = [
     {
       question: 'Do I need coding experience?',
@@ -117,7 +130,7 @@ function App() {
         <section className="hero dark-section">
           <div className="hero-inner">
             <div className="hero-copy reveal">
-              <div className="start-date-badge">🗓 Cohort 1.0 starts <strong>June 15, 2026</strong> — 9 days away</div>
+              <div className="start-date-badge">🗓 Cohort 1.0 starts <strong>June 15, 2026</strong> — {launchCountdown}</div>
               <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 20 Slots Only</span>
               <h1>
                 I built <em>₦8 Million</em> in automation income from scratch.<br />
@@ -150,7 +163,7 @@ function App() {
                   <span className="btn-arrow">→</span>
                 </a>
               </div>
-              <p className="trust-note">Full refund available within 48 hours of payment</p>
+              <p className="trust-note">Full refund available within 48 hours of payment &nbsp;·&nbsp; 🎥 Recordings available to all members</p>
             </div>
           </div>
         </section>
@@ -774,7 +787,7 @@ function App() {
               </p>
             </div>
             <div className="cta-card reveal">
-              <div className="cta-start-date">🗓 &nbsp;Cohort 1.0 kicks off <strong>June 15, 2026</strong></div>
+              <div className="cta-start-date">🗓 &nbsp;Cohort 1.0 kicks off <strong>June 15, 2026</strong> — {launchCountdown}</div>
               <span className="cta-meta">Limited Cohort · 20 Slots Only</span>
               <div className="cta-price">₦50,000</div>
               <p className="cta-sub">20 slots. Not 50. Not 100. Twenty — because feedback is personal and attention matters. When this fills, enrollment closes. The next cohort will cost more. Cohort 1.0 pricing doesn't come back.</p>
