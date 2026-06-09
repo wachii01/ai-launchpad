@@ -251,19 +251,57 @@ function App() {
             <div className="proof-cta reveal">
               <h3>This didn't happen because I'm special.</h3>
               <p>
-                It happened because businesses have serious bottlenecks and they will pay serious money to anyone who can design workflows that eliminate them. I learned that skill. I'm going to teach it to you.
+                It happened because I learned one skill — <strong>AI Automation</strong> — and used it to solve real problems for real businesses. They had bottlenecks slowing everything down, and I built systems that eliminated them. That's it. No degree. No connections. Just the skill. And I'm going to teach it to you.
               </p>
               <a className="primary-button btn-premium" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer" id="proof-cta">
                 <span className="btn-text">Let me start building my own wins</span>
                 <span className="btn-arrow">→</span>
               </a>
             </div>
+
           </div>
         </section>
 
-        {/* ═══ TRANSITION: PROOF → PROBLEM ═══ */}
+        {/* ═══ TRANSITION: PROOF → WHAT IS AI AUTOMATION ═══ */}
         <div className="section-transition">
-          <span>But here's what the bank statement doesn't show — the exact problem I had to solve first. And it's the same problem keeping most people stuck.</span>
+          <span>So what exactly is this skill — and why are businesses paying so much for it?</span>
+        </div>
+
+        {/* ═══ WHAT IS AI AUTOMATION? ═══ */}
+        <section className="section dark-section" aria-labelledby="what-title">
+          <div className="section-inner">
+            <div className="section-header split-header">
+              <div>
+                <span className="section-label">— The Skill</span>
+                <h2 id="what-title">AI Automation is the skill of making businesses <em>run themselves.</em></h2>
+              </div>
+              <p className="section-desc">
+                In simple terms: businesses do the same tasks over and over — replying to customers, following up on leads, sorting data, sending reminders, onboarding clients. AI Automation means building systems that handle all of that automatically, using AI and workflow tools — without the business owner lifting a finger.
+              </p>
+            </div>
+            <div className="pain-grid">
+              <article className="pain-card reveal" style={{borderColor: 'rgba(249,115,22,0.2)'}}>
+                <span className="card-icon" style={{color: 'var(--orange)'}}>⚡</span>
+                <h3>What it looks like in practice</h3>
+                <p>A chatbot that answers customer questions 24/7. A voice agent that books appointments while the owner sleeps. An outreach system that finds leads and sends personalized messages automatically. These are real systems — and you'll build them in this cohort.</p>
+              </article>
+              <article className="pain-card reveal" style={{borderColor: 'rgba(249,115,22,0.2)'}}>
+                <span className="card-icon" style={{color: 'var(--orange)'}}>💰</span>
+                <h3>Why businesses pay ₦200k–₦500k+ for this</h3>
+                <p>Because these systems save them hours every day, reduce staff costs, and make them money while they sleep. A single automation system can replace 2–3 manual tasks a business is paying people to do. When you can build that — you become valuable overnight.</p>
+              </article>
+              <article className="pain-card reveal" style={{borderColor: 'rgba(249,115,22,0.2)'}}>
+                <span className="card-icon" style={{color: 'var(--orange)'}}>🌍</span>
+                <h3>Why now — and why Nigeria</h3>
+                <p>Every business in the world is trying to figure out AI. Most don't know where to start. The people who learn to build automation systems right now — not watch tutorials about them, but actually build them — will be the ones businesses come to first. Nigeria has a massive talent gap here. That's your opportunity.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        {/* ═══ TRANSITION: WHAT → PROBLEM ═══ */}
+        <div className="section-transition">
+          <span>But knowing this skill exists isn't the hard part. The hard part is actually learning it — and most people get stuck before they even start.</span>
         </div>
 
         {/* ═══ PROBLEM SECTION ═══ */}
@@ -272,42 +310,42 @@ function App() {
             <div className="section-header split-header">
               <div>
                 <span className="section-label">— The Problem</span>
-                <h2 id="pain-title">The hard part is not finding more content. It's knowing what to <em>do next.</em></h2>
+                <h2 id="pain-title">Whether you haven't started or you've already tried — you're stuck in the same <em>place.</em></h2>
               </div>
               <p className="section-desc">
-                You already have YouTube. You already have ChatGPT. You already have free resources and saved videos you haven't finished. The real problem is that you don't know what to learn first, what to build next, or how to turn what you're learning into something a business will pay for.
+                Maybe you've been hearing about AI Automation and you're interested — but you have no idea where to begin. Or maybe you've already started watching tutorials and playing with tools — but you still can't build anything a business would actually pay for. Either way, the result is the same: you're not moving forward.
               </p>
             </div>
             <div className="pain-grid">
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>No proven order</h3>
-                <p>Most resources throw tools at you with no structure. You end up learning to jump before you can crawl — and wondering why nothing sticks.</p>
+                <h3>You don't even know where to start</h3>
+                <p>You've heard about AI agents, chatbots, n8n, automation — but it all sounds overwhelming. You don't know what to learn first, what tools to use, or what's even realistic for a beginner. So you keep "researching" instead of building.</p>
               </article>
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>Learning alone</h3>
-                <p>Just you, YouTube, ChatGPT, and the hope that you're doing it right. No feedback. No correction. No one to tell you whether what you built actually makes sense.</p>
+                <h3>Free content is everywhere — clarity is not</h3>
+                <p>YouTube has 10,000 tutorials. ChatGPT can explain anything. But none of them give you a step-by-step path from "I know nothing" to "I just built something a business will pay for." You have access to everything and direction to nothing.</p>
               </article>
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>Confusion at the start</h3>
-                <p>That phase where you know enough to know how much you don't know — and not enough to feel confident. Most people quit here. It's not weakness, it's what happens without proper structure.</p>
+                <h3>You started — then stopped</h3>
+                <p>You installed n8n. You watched a few videos. Maybe you even built a basic workflow. But then you got stuck, confused, or distracted. The initial excitement died, and now your browser has 47 saved tabs you'll "get back to."</p>
               </article>
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>Zeal dying by week 3</h3>
-                <p>You start hot. Then the isolation, confusion, and lack of visible progress kills the momentum. You're still showing up — but it doesn't feel like it's going anywhere.</p>
+                <h3>No one to ask when you're stuck</h3>
+                <p>The moment something breaks or doesn't work as expected, you're on your own. No mentor. No community. No one to tell you "this is normal" or "here's how to fix it." So you spiral, waste hours, and sometimes just give up.</p>
               </article>
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>No client path</h3>
-                <p>Building is only half the work. Nobody teaches you how to package what you've built, approach a business, and position yourself to get paid. You finish the tutorials with a full brain and an empty portfolio.</p>
+                <h3>No portfolio, no confidence, no client path</h3>
+                <p>Even if you've learned something, you have nothing to show for it. No projects. No portfolio. No idea how to approach a business and say "I can build this for you." You know the opportunity is real — but you can't prove you belong in it yet.</p>
               </article>
               <article className="pain-card reveal">
                 <span className="card-icon">✗</span>
-                <h3>The Nigerian reality</h3>
-                <p>Bad light. Expensive data. No mentor. Figuring it out alone while managing everything else life is throwing at you. You're not behind because you're not trying hard enough. You're behind because the system wasn't built for you.</p>
+                <h3>The Nigerian reality makes it harder</h3>
+                <p>Unstable power. Expensive data. No local mentors in this space. You're trying to learn a global skill with third-world infrastructure — and doing it completely alone. You're not behind because you're lazy. You're behind because nobody built a path for you.</p>
               </article>
             </div>
           </div>
