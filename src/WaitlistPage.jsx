@@ -106,8 +106,8 @@ function WaitlistPage() {
             </div>
             <div className="wl-proof-copy">
               <span className="section-label">— Already Proven</span>
-              <h3>Cohort Zero launched with <em>61 members</em> before we even had a landing page.</h3>
-              <p>The demand was there before the product existed. Cohort 2 will fill the same way — this time, you know it's coming.</p>
+              <h3>Cohort Zero filled up in <em>less than 2 weeks.</em> 61 people didn&apos;t wait.</h3>
+              <p>No convincing. No long sales pitch. People saw the skill, saw the results, and moved. That&apos;s the kind of demand we&apos;re talking about. Cohort 2 will go the same way — don&apos;t be the person that waited too long.</p>
             </div>
           </div>
         </div>
