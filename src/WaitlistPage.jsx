@@ -84,7 +84,7 @@ function WaitlistPage() {
                 </div>
                 <div className="info-card">
                   <span className="info-label">Cohort Size</span>
-                  <strong>20 Slots Max</strong>
+                  <strong>80 Slots Max</strong>
                 </div>
                 <div className="info-card">
                   <span className="info-label">Projects</span>
@@ -94,6 +94,23 @@ function WaitlistPage() {
             </div>
           </div>
         </section>
+
+        {/* ═══ SOCIAL PROOF ═══ */}
+        <div className="wl-proof-band">
+          <div className="wl-proof-inner reveal">
+            <div className="wl-proof-img-wrap">
+              <img
+                src="/assets/cohort-zero-group.jpg"
+                alt="AI Automation Launchpad Cohort Zero WhatsApp group — 61 members"
+              />
+            </div>
+            <div className="wl-proof-copy">
+              <span className="section-label">— Already Proven</span>
+              <h3>Cohort Zero launched with <em>61 members</em> before we even had a landing page.</h3>
+              <p>The demand was there before the product existed. Cohort 2 will fill the same way — this time, you know it's coming.</p>
+            </div>
+          </div>
+        </div>
 
         {/* ═══ FORM SECTION ═══ */}
         <section className="wl-form-section">

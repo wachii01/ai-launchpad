@@ -52,6 +52,72 @@
   margin-right: auto;
 }
 
+/* ─── Social Proof Band ─── */
+.wl-proof-band {
+  background: #121214;
+  border-top: 1px solid var(--border-dark);
+  border-bottom: 1px solid var(--border-dark);
+  padding: clamp(3rem, 6vw, 5rem) 1.5rem;
+}
+
+.wl-proof-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.wl-proof-img-wrap {
+  border: 1px solid var(--border-dark);
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.wl-proof-img-wrap img {
+  width: 100%;
+  display: block;
+}
+
+.wl-proof-copy h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+  color: var(--white);
+  line-height: 1.25;
+  margin: 0.5rem 0 0.9rem;
+  letter-spacing: -0.02em;
+}
+
+.wl-proof-copy h3 em {
+  color: var(--orange);
+  font-style: normal;
+}
+
+.wl-proof-copy p {
+  color: var(--text-light-muted);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .wl-proof-inner {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .wl-proof-img-wrap {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .wl-proof-copy {
+    text-align: center;
+  }
+}
+
 /* ─── Form Section ─── */
 .wl-form-section {
   padding: clamp(4rem, 8vw, 6rem) 1.5rem;
