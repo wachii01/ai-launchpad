@@ -38,9 +38,9 @@ function App() {
     setOpenFaqIndex(openFaqIndex === index ? null : index)
   }
 
-  // Dynamic countdown to June 15, 2026
+  // Dynamic countdown to July 27, 2026
   const getDaysUntilLaunch = () => {
-    const launch = new Date('2026-06-15T00:00:00')
+    const launch = new Date('2026-07-27T00:00:00')
     const today = new Date()
     today.setHours(0, 0, 0, 0)
     const diff = Math.round((launch - today) / (1000 * 60 * 60 * 24))
@@ -88,14 +88,14 @@ function App() {
 
   const tickerItems = [
     'AI Automation Launchpad',
-    '🗓 Starts June 15, 2026',
+    '🗓 Starts July 27, 2026',
     'Only 20 Seats',
-    'Cohort 1.0',
+    'Cohort 2.0',
     'Build Real Systems',
     'Get Client-Ready',
     '₦50,000 Entry',
     '4 Weeks · 3x Weekly · 8PM',
-    '🗓 Starts June 15, 2026',
+    '🗓 Starts July 27, 2026',
   ]
 
   return (
@@ -130,8 +130,8 @@ function App() {
         <section className="hero dark-section">
           <div className="hero-inner">
             <div className="hero-copy reveal">
-              <div className="start-date-badge">🗓 Cohort 1.0 starts <strong>June 15, 2026</strong> — {launchCountdown}</div>
-              <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 20 Slots Only</span>
+              <div className="start-date-badge">🗓 Cohort 2.0 starts <strong>July 27, 2026</strong> — {launchCountdown}</div>
+              <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 80 Slots</span>
               <h1>
                 I built <em>₦8 Million</em> in automation income from scratch.<br />
                 This cohort teaches you the exact skill behind it.
@@ -142,7 +142,7 @@ function App() {
               <div className="info-cards">
                 <div className="info-card info-card-date">
                   <span className="info-label">Starts</span>
-                  <strong>June 15, 2026</strong>
+                  <strong>July 27, 2026</strong>
                 </div>
                 <div className="info-card">
                   <span className="info-label">Sessions</span>
@@ -150,7 +150,7 @@ function App() {
                 </div>
                 <div className="info-card">
                   <span className="info-label">Cohort Size</span>
-                  <strong>20 Slots Only</strong>
+                  <strong>80 Slots</strong>
                 </div>
                 <div className="info-card">
                   <span className="info-label">Projects</span>
@@ -243,6 +243,19 @@ function App() {
                 </div>
                 <div className="proof-img-container">
                   <img src="/assets/win-monitor.png" alt="Client sending monitor gift screenshot" />
+                </div>
+              </div>
+
+              {/* Social Proof: Cohort Zero demand */}
+              <div className="proof-card reveal">
+                <div>
+                  <h3>Cohort Zero: 61 Members. Under 2 Weeks. Zero Paid Ads.</h3>
+                  <p>
+                    Before we had a proper sales page, before any paid promotion — 61 people joined Cohort Zero purely through word of mouth. The demand for this skill is real. People already know they need it. Cohort 2.0 will move the same way. Get in before the slots go.
+                  </p>
+                </div>
+                <div className="proof-img-container">
+                  <img src="/assets/cohort-zero-group.jpg" alt="AI Automation Launchpad Cohort Zero WhatsApp group — 61 members" />
                 </div>
               </div>
             </div>
@@ -645,7 +658,7 @@ function App() {
                   <p>This is not for you if you need hand-holding to find the motivation — the structure is here, but the effort is yours.</p>
                 </div>
               </div>
-              <p className="not-for-close">The 20 people in this cohort will be the ones who show up and deliver. If that's you, you'll fit right in.</p>
+              <p className="not-for-close">The 80 people in this cohort will be the ones who show up and deliver. If that's you, you'll fit right in.</p>
             </div>
           </div>
         </section>
@@ -803,7 +816,7 @@ function App() {
             <div className="about-lesson reveal">
               <p>
                 I'm not a genius. I didn't have connections or capital. I had a skill I decided to take seriously — and I stacked evidence until people had no choice but to pay attention.
-                That's what I'm helping the next 20 people do inside this cohort.
+                That's what I'm helping the next 80 people do inside this cohort.
               </p>
             </div>
           </div>
@@ -825,12 +838,12 @@ function App() {
               </p>
             </div>
             <div className="cta-card reveal">
-              <div className="cta-start-date">🗓 &nbsp;Cohort 1.0 kicks off <strong>June 15, 2026</strong> — {launchCountdown}</div>
-              <span className="cta-meta">Limited Cohort · 20 Slots Only</span>
+              <div className="cta-start-date">🗓 &nbsp;Cohort 2.0 kicks off <strong>July 27, 2026</strong> — {launchCountdown}</div>
+              <span className="cta-meta">Limited Cohort · 80 Slots</span>
               <div className="cta-price">₦50,000</div>
-              <p className="cta-sub">20 slots. Not 50. Not 100. Twenty — because feedback is personal and attention matters. When this fills, enrollment closes. The next cohort will cost more. Cohort 1.0 pricing doesn't come back.</p>
+              <p className="cta-sub">80 slots. When this fills, enrollment closes. Cohort Zero filled up in under 2 weeks — Cohort 1.0 did the same. Cohort 2.0 pricing will not return after this.</p>
               <div className="cta-stats">
-                <div><strong>20</strong><span>Slots</span></div>
+                <div><strong>80</strong><span>Slots</span></div>
                 <div><strong>4</strong><span>Weeks</span></div>
                 <div><strong>3x</strong><span>Weekly</span></div>
                 <div><strong>5</strong><span>Projects</span></div>
@@ -898,20 +911,20 @@ function App() {
                 Ask on WhatsApp
               </a>
             </div>
-            <p className="final-meta">20 slots &nbsp;·&nbsp; Cohort 1.0 &nbsp;·&nbsp; Sessions via Google Meet &nbsp;·&nbsp; 3x weekly, 8PM</p>
+            <p className="final-meta">80 slots &nbsp;·&nbsp; Cohort 2.0 &nbsp;·&nbsp; Sessions via Google Meet &nbsp;·&nbsp; 3x weekly, 8PM</p>
           </div>
         </section>
       </main>
 
       {/* ═══ FOOTER ═══ */}
       <footer className="site-footer">
-        <span>AI Automation Launchpad — Cohort 1.0 &nbsp;·&nbsp; Built by Elewachi Emmanuel</span>
+        <span>AI Automation Launchpad — Cohort 2.0 &nbsp;·&nbsp; Built by Elewachi Emmanuel</span>
         <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer">nestuge.com/ai_launchpad</a>
       </footer>
 
       {/* ═══ STICKY MOBILE CTA ═══ */}
       <div className={`sticky-cta ${stickyVisible ? 'visible' : ''}`} aria-label="Sticky enrollment action">
-        <span>20 slots · ₦50,000</span>
+        <span>80 slots · ₦50,000</span>
         <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer">Enroll Now</a>
       </div>
     </>
