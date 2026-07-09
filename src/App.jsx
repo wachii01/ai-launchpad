@@ -165,6 +165,9 @@ function App() {
               </div>
               <p className="trust-note">Full refund available within 48 hours of payment &nbsp;·&nbsp; 🎥 Recordings available to all members</p>
             </div>
+            <div className="hero-visual reveal">
+              <img src="/assets/ai-automation-launchpad.jpeg" alt="AI Automation Launchpad — Cohort 2.0 Mentorship" />
+            </div>
           </div>
         </section>
 
@@ -832,7 +835,7 @@ function App() {
                   />
                   <div className="about-caption">
                     <span className="about-caption-icon">🔥</span>
-                    <p>₦8M+ in automation income. Clients in multiple countries. Teaching the exact system that got me here.</p>
+                    <p>₦11M+ in automation income. Clients in multiple countries. Teaching the exact system that got me here.</p>
                   </div>
                 </div>
               </div>
