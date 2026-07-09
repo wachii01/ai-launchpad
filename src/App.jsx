@@ -120,7 +120,7 @@ function App() {
           <span className="pulse-dot"></span>
           Enrollment Open
         </div>
-        <a className="nav-cta" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer">
+        <a className="nav-cta" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer">
           Register — ₦50,000
         </a>
       </header>
@@ -266,7 +266,7 @@ function App() {
               <p>
                 It happened because I learned one skill — <strong>AI Automation</strong> — and used it to solve real problems for real businesses. They had bottlenecks slowing everything down, and I built systems that eliminated them. That's it. No degree. No connections. Just the skill. And I'm going to teach it to you.
               </p>
-              <a className="primary-button btn-premium" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer" id="proof-cta">
+              <a className="primary-button btn-premium" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer" id="proof-cta">
                 <span className="btn-text">Let me start building my own wins</span>
                 <span className="btn-arrow">→</span>
               </a>
@@ -848,7 +848,7 @@ function App() {
                 <div><strong>3x</strong><span>Weekly</span></div>
                 <div><strong>5</strong><span>Projects</span></div>
               </div>
-              <a className="primary-button btn-premium cta-primary" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer" id="pricing-cta">
+              <a className="primary-button btn-premium cta-primary" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer" id="pricing-cta">
                 <span className="btn-text">Claim Your Slot Now — ₦50,000</span>
                 <span className="btn-arrow">→</span>
               </a>
@@ -903,7 +903,7 @@ function App() {
               The ones still planning to start are still thinking about it. Stop waiting until you feel ready. Most people will spend the next few months saving tutorials, jumping between tools, and wondering if AI Automation is for them. You can do something different.
             </p>
             <div className="hero-actions" style={{ justifyContent: 'center', marginTop: '44px' }}>
-              <a className="primary-button btn-premium btn-large" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer" id="final-cta">
+              <a className="primary-button btn-premium btn-large" href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer" id="final-cta">
                 <span className="btn-text">Secure My Slot — ₦50,000</span>
                 <span className="btn-arrow">→</span>
               </a>
@@ -919,13 +919,13 @@ function App() {
       {/* ═══ FOOTER ═══ */}
       <footer className="site-footer">
         <span>AI Automation Launchpad — Cohort 2.0 &nbsp;·&nbsp; Built by Elewachi Emmanuel</span>
-        <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer">nestuge.com/ai_launchpad</a>
+        <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer">nestuge.com/ai_launchpad</a>
       </footer>
 
       {/* ═══ STICKY MOBILE CTA ═══ */}
       <div className={`sticky-cta ${stickyVisible ? 'visible' : ''}`} aria-label="Sticky enrollment action">
         <span>80 slots · ₦50,000</span>
-        <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mpqp5yyocbcc2acswjcpesuasqgyt%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mpqp672rmgs2gs399z3sz1vlss8ys%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+        <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer">Enroll Now</a>
       </div>
     </>
   )
