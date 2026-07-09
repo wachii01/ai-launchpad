@@ -582,6 +582,47 @@ h2 {
   max-height: 520px;
   object-fit: contain;
 }
+/* Story layout — invoice + payment side by side */
+.proof-story-header {
+  margin-bottom: 2rem;
+}
+.proof-story-header p {
+  color: var(--text-light-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.proof-story-header strong {
+  color: var(--white);
+}
+.proof-story-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.proof-story-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.proof-story-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.proof-story-step img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--border-dark);
+}
+@media (max-width: 768px) {
+  .proof-story-images {
+    grid-template-columns: 1fr;
+  }
+}
+
 .proof-three-months {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

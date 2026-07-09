@@ -133,7 +133,7 @@ function App() {
               <div className="start-date-badge">🗓 Cohort 2.0 starts <strong>July 27, 2026</strong> — {launchCountdown}</div>
               <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 80 Slots</span>
               <h1>
-                I built <em>₦8 Million</em> in automation income from scratch.<br />
+                I built <em>₦11 Million</em> in automation income from scratch.<br />
                 This cohort teaches you the exact skill behind it.
               </h1>
               <p className="hero-lead">
@@ -178,9 +178,9 @@ function App() {
           <div className="section-inner">
             <div className="section-header centered">
               <span className="section-label">— Real Results</span>
-              <h2 id="proof-title">This skill paid me <em>₦8 Million.</em> I'm teaching it to 20 people.</h2>
+              <h2 id="proof-title">This skill paid me <em>₦11 Million.</em> I'm teaching it to 80 people.</h2>
               <p className="section-desc">
-                I started with ₦42 in a dedicated Moniepoint account I used only for automation income. No salary. No side hustle top-ups. Just the skill you're about to learn. That account now shows <strong style={{ color: 'var(--orange)' }}>₦8,210,214.80</strong> in total credits.
+                I started with ₦42 in a dedicated Moniepoint account I used only for automation income. No salary. No side hustle top-ups. Just the skill you're about to learn. That account now shows <strong style={{ color: 'var(--orange)' }}>₦11,474,217.53</strong> in total credits.
               </p>
             </div>
 
@@ -188,13 +188,39 @@ function App() {
               {/* Bank Statement */}
               <div className="proof-card full-width reveal">
                 <div>
-                  <h3>From ₦42 to ₦8,210,214.80 — One Dedicated Automation Account</h3>
+                  <h3>From ₦42 to ₦11,474,217.53 — One Dedicated Automation Account</h3>
                   <p>
-                    This is the direct export of my Moniepoint bank statement summary. Opening balance: <strong>₦42.01</strong>. Total credits received: <strong>₦8,210,214.80</strong>. I used this account solely to collect my AI automation earnings — no salary, no transfers in. The numbers don't lie.
+                    This is the direct export of my Moniepoint bank statement summary. Opening balance: <strong>₦42.01</strong>. Total credits received: <strong>₦11,474,217.53</strong>. I used this account solely to collect my AI automation earnings — no salary, no transfers in. The numbers don't lie.
                   </p>
                 </div>
                 <div className="proof-img-container" style={{ background: '#fff' }}>
-                  <img src="/assets/win-statement.png" alt="Moniepoint bank statement showing ₦8 million in automation income" />
+                  <img src="/assets/win-statement.jpg" alt="Moniepoint bank statement showing ₦11 million in automation income" />
+                </div>
+              </div>
+
+              {/* Win: ₦2.3M Contract — Invoice + Payment */}
+              <div className="proof-card full-width reveal">
+                <div className="proof-story-header">
+                  <h3>A ₦2,300,000 Contract. The 30% Deposit Alone Hit ₦690,000.</h3>
+                  <p>
+                    Imagine this: it's a regular Friday morning. You get a message from someone who saw what you built for another business. They don't ask for your CV. They don't ask how long you've been doing this. They describe their problem — and you already know exactly how to solve it.
+                  </p>
+                  <p style={{ marginTop: '0.75rem' }}>
+                    You send a proposal. <strong>₦2,300,000</strong> total contract value. They agree to the terms, request an invoice for the 30% deposit. By <strong>8:57 AM</strong>, ₦690,000 has already moved into your account — before most people had even gotten to the office.
+                  </p>
+                  <p style={{ marginTop: '0.75rem' }}>
+                    That's not luck. That's what happens when you show up with a skill businesses can't afford to ignore. They don't negotiate on price — they ask when you can start.
+                  </p>
+                </div>
+                <div className="proof-story-images">
+                  <div className="proof-story-step">
+                    <div className="proof-story-label">📄 The Invoice</div>
+                    <img src="/assets/win-invoice.jpg" alt="₦2.3M automation contract invoice — 30% deposit of ₦690,000" />
+                  </div>
+                  <div className="proof-story-step">
+                    <div className="proof-story-label">💳 The Payment</div>
+                    <img src="/assets/win-payment.jpg" alt="₦690,000 payment received — Friday July 3rd, 2026 at 8:57 AM" />
+                  </div>
                 </div>
               </div>
 
@@ -587,7 +613,7 @@ function App() {
               <div className="feature-card reveal">
                 <span className="feature-icon">🤝</span>
                 <h3>Accountability built in</h3>
-                <p>20 people. Same goal. Your progress is visible. You won't disappear after week one.</p>
+                <p>80 people. Same goal. Your progress is visible. You won't disappear after week one.</p>
               </div>
               <div className="feature-card reveal">
                 <span className="feature-icon">🧠</span>
@@ -898,7 +924,7 @@ function App() {
         <section className="section dark-section final-cta" aria-label="Final enrollment call to action">
           <div className="section-inner centered">
             <span className="section-label">— The next six months will pass either way</span>
-            <h2>The people charging ₦200k for automation work 6 months from now are <em>registering today.</em></h2>
+            <h2>The people charging ₦500k for automation work 6 months from now are <em>registering today.</em></h2>
             <p className="section-desc" style={{ margin: '20px auto 0', maxWidth: '640px' }}>
               The ones still planning to start are still thinking about it. Stop waiting until you feel ready. Most people will spend the next few months saving tutorials, jumping between tools, and wondering if AI Automation is for them. You can do something different.
             </p>
