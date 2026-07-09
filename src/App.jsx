@@ -165,9 +165,6 @@ function App() {
               </div>
               <p className="trust-note">Full refund available within 48 hours of payment &nbsp;·&nbsp; 🎥 Recordings available to all members</p>
             </div>
-            <div className="hero-visual reveal">
-              <img src="/assets/ai-automation-launchpad.jpeg" alt="AI Automation Launchpad — Cohort 2.0 Mentorship" />
-            </div>
           </div>
         </section>
 
