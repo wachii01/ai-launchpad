@@ -38,9 +38,9 @@ function App() {
     setOpenFaqIndex(openFaqIndex === index ? null : index)
   }
 
-  // Dynamic countdown to July 27, 2026
+  // Dynamic countdown to August 3, 2026
   const getDaysUntilLaunch = () => {
-    const launch = new Date('2026-07-27T00:00:00')
+    const launch = new Date('2026-08-03T00:00:00')
     const today = new Date()
     today.setHours(0, 0, 0, 0)
     const diff = Math.round((launch - today) / (1000 * 60 * 60 * 24))
@@ -88,14 +88,14 @@ function App() {
 
   const tickerItems = [
     'AI Automation Launchpad',
-    '🗓 Starts July 27, 2026',
+    '🗓 Starts August 3, 2026',
     'Only 20 Seats',
     'Cohort 2.0',
     'Build Real Systems',
     'Get Client-Ready',
     '₦50,000 Entry',
     '4 Weeks · 3x Weekly · 8PM',
-    '🗓 Starts July 27, 2026',
+    '🗓 Starts August 3, 2026',
   ]
 
   return (
@@ -130,7 +130,7 @@ function App() {
         <section className="hero dark-section">
           <div className="hero-inner">
             <div className="hero-copy reveal">
-              <div className="start-date-badge">🗓 Cohort 2.0 starts <strong>July 27, 2026</strong> — {launchCountdown}</div>
+              <div className="start-date-badge">🗓 Cohort 2.0 starts <strong>August 3, 2026</strong> — {launchCountdown}</div>
               <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 80 Slots</span>
               <h1>
                 I built <em>₦11 Million</em> in automation income from scratch.<br />
@@ -142,7 +142,7 @@ function App() {
               <div className="info-cards">
                 <div className="info-card info-card-date">
                   <span className="info-label">Starts</span>
-                  <strong>July 27, 2026</strong>
+                  <strong>August 3, 2026</strong>
                 </div>
                 <div className="info-card">
                   <span className="info-label">Sessions</span>
@@ -864,7 +864,7 @@ function App() {
               </p>
             </div>
             <div className="cta-card reveal">
-              <div className="cta-start-date">🗓 &nbsp;Cohort 2.0 kicks off <strong>July 27, 2026</strong> — {launchCountdown}</div>
+              <div className="cta-start-date">🗓 &nbsp;Cohort 2.0 kicks off <strong>August 3, 2026</strong> — {launchCountdown}</div>
               <span className="cta-meta">Limited Cohort · 80 Slots</span>
               <div className="cta-price">₦50,000</div>
               <p className="cta-sub">80 slots. When this fills, enrollment closes. Cohort Zero filled up in under 2 weeks — Cohort 1.0 did the same. Cohort 2.0 pricing will not return after this.</p>
