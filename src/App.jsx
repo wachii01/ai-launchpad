@@ -90,7 +90,7 @@ function App() {
     'AI Automation Launchpad',
     '🗓 Starts October 19, 2026',
     'Only 20 Seats',
-    'Cohort 2.0',
+    'Cohort 3.0',
     'Build Real Systems',
     'Get Client-Ready',
     '₦50,000 Entry',
@@ -130,7 +130,7 @@ function App() {
         <section className="hero dark-section">
           <div className="hero-inner">
             <div className="hero-copy reveal">
-              <div className="start-date-badge">🗓 Cohort 2.0 starts <strong>October 19, 2026</strong> — {launchCountdown}</div>
+              <div className="start-date-badge">🗓 Cohort 3.0 starts <strong>October 19, 2026</strong> — {launchCountdown}</div>
               <span className="tag">Live 4-Week Mentorship &nbsp;·&nbsp; 80 Slots</span>
               <h1>
                 I built <em>₦11 Million</em> in automation income from scratch.<br />
@@ -864,7 +864,7 @@ function App() {
               </p>
             </div>
             <div className="cta-card reveal">
-              <div className="cta-start-date">🗓 &nbsp;Cohort 2.0 kicks off <strong>October 19, 2026</strong> — {launchCountdown}</div>
+              <div className="cta-start-date">🗓 &nbsp;Cohort 3.0 kicks off <strong>October 19, 2026</strong> — {launchCountdown}</div>
               <span className="cta-meta">Limited Cohort · 80 Slots</span>
               <div className="cta-price">₦50,000</div>
               <p className="cta-sub">80 slots. When this fills, enrollment closes. Cohort Zero filled up in under 2 weeks — Cohort 1.0 did the same. Cohort 2.0 pricing will not return after this.</p>
@@ -937,14 +937,14 @@ function App() {
                 Ask on WhatsApp
               </a>
             </div>
-            <p className="final-meta">80 slots &nbsp;·&nbsp; Cohort 2.0 &nbsp;·&nbsp; Sessions via Google Meet &nbsp;·&nbsp; 3x weekly, 8PM</p>
+            <p className="final-meta">80 slots &nbsp;·&nbsp; Cohort 3.0 &nbsp;·&nbsp; Sessions via Google Meet &nbsp;·&nbsp; 3x weekly, 8PM</p>
           </div>
         </section>
       </main>
 
       {/* ═══ FOOTER ═══ */}
       <footer className="site-footer">
-        <span>AI Automation Launchpad — Cohort 2.0 &nbsp;·&nbsp; Built by Elewachi Emmanuel</span>
+        <span>AI Automation Launchpad — Cohort 3.0 &nbsp;·&nbsp; Built by Elewachi Emmanuel</span>
         <a href="https://nestuge.com/checkout?items=%5B%7B%22id%22%3A%22pr_mr7lhq63ovaemgxy9fttkzyxdaiee%22%2C%22type%22%3A%22registration%22%2C%22plan%22%3A%22pl_mr7lhqcjzs42novfzmhzcmjykuurn%22%2C%22count%22%3A1%2C%22affiliate%22%3Anull%7D%5D&currency=NGN&redirectUrl=https%3A%2F%2Fnestuge.com%2Fai_launchpad2" target="_blank" rel="noopener noreferrer">nestuge.com/ai_launchpad</a>
       </footer>
 

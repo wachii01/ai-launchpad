@@ -51,9 +51,9 @@ function WaitlistPage() {
         <a className="brand" href="/" aria-label="Back to AI Automation Launchpad">
           <img src="/assets/wachi-logo.png" alt="Wachi Automations" className="brand-logo" />
         </a>
-        <div className="reg-badge" aria-label="Cohort 2 waitlist">
+        <div className="reg-badge" aria-label="Cohort 3 waitlist">
           <span className="pulse-dot"></span>
-          Cohort 2 — Coming Soon
+          Cohort 3 — Coming Soon
         </div>
         <a className="nav-cta wl-nav-back" href="/">
           ← Main Page
@@ -65,10 +65,10 @@ function WaitlistPage() {
         <section className="wl-hero dark-section">
           <div className="wl-hero-inner">
             <div className="reveal">
-              <div className="start-date-badge">🔥 Cohort 1.0 is underway — Cohort 2 is next</div>
+              <div className="start-date-badge">🔥 Cohort 2.0 is underway — Cohort 3 is next</div>
               <h1 className="wl-title">
                 20 slots. Cohort 1 sold out.<br />
-                <em>Be first in line for Cohort 2.</em>
+                <em>Be first in line for Cohort 3.</em>
               </h1>
               <p className="wl-subtitle">
                 AI Automation Launchpad teaches you the exact skill that generated ₦8 Million from scratch — no prior experience required. Waitlist members get priority access before slots open to the public.
@@ -107,7 +107,7 @@ function WaitlistPage() {
             <div className="wl-proof-copy">
               <span className="section-label">— Already Proven</span>
               <h3>Cohort Zero filled up in <em>less than 2 weeks.</em> 61 people didn&apos;t wait.</h3>
-              <p>No convincing. No long sales pitch. People saw the skill, saw the results, and moved. That&apos;s the kind of demand we&apos;re talking about. Cohort 2 will go the same way — don&apos;t be the person that waited too long.</p>
+              <p>No convincing. No long sales pitch. People saw the skill, saw the results, and moved. That&apos;s the kind of demand we&apos;re talking about. Cohort 3 will go the same way — don&apos;t be the person that waited too long.</p>
             </div>
           </div>
         </div>
@@ -120,7 +120,7 @@ function WaitlistPage() {
                 <div className="wl-success-icon">✓</div>
                 <h2>You&apos;re on the list.</h2>
                 <p>
-                  We&apos;ll reach out when Cohort 2 registration opens — you&apos;ll get first access before anyone else. Keep an eye on your WhatsApp and email.
+                  We&apos;ll reach out when Cohort 3 registration opens — you&apos;ll get first access before anyone else. Keep an eye on your WhatsApp and email.
                 </p>
                 <a href="/" className="primary-button btn-premium wl-back-btn">
                   <span className="btn-text">← Back to Main Page</span>
@@ -128,10 +128,10 @@ function WaitlistPage() {
               </div>
             ) : (
               <div className="wl-card reveal">
-                <div className="wl-card-label">Cohort 2 — Early Access</div>
+                <div className="wl-card-label">Cohort 3 — Early Access</div>
                 <h2 className="wl-card-title">Save your spot now.</h2>
                 <p className="wl-card-desc">
-                  Leave your details and we&apos;ll notify you the moment Cohort 2 registration opens — before slots go public.
+                  Leave your details and we&apos;ll notify you the moment Cohort 3 registration opens — before slots go public.
                 </p>
 
                 <form className="wl-form" onSubmit={handleSubmit} noValidate>
@@ -197,7 +197,7 @@ function WaitlistPage() {
                 </form>
 
                 <p className="trust-note wl-trust">
-                  No spam. We only message when Cohort 2 opens.
+                  No spam. We only message when Cohort 3 opens.
                 </p>
               </div>
             )}
@@ -239,7 +239,7 @@ function WaitlistPage() {
         <section className="wl-bottom-cta">
           <div className="wl-bottom-cta-inner reveal">
             <p className="wl-bottom-cta-text">
-              Cohort 1 filled up in days. <strong>Don&apos;t miss Cohort 2.</strong>
+              Cohort 2 filled up in days. <strong>Don&apos;t miss Cohort 3.</strong>
             </p>
             <a
               href="#form-section"
