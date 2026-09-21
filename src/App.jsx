@@ -272,6 +272,19 @@ function App() {
                 </div>
               </div>
 
+              {/* New Cohort 3 promo asset for the exact proof section */}
+              <div className="proof-card reveal">
+                <div>
+                  <h3>That&apos;s exactly what this cohort is built for.</h3>
+                  <p>
+                    The skill is simple to understand, but it changes how you get noticed, how you charge, and how businesses see your value. This is the difference between consuming tutorials and shipping real systems that create leverage.
+                  </p>
+                </div>
+                <div className="proof-img-container">
+                  <img src="/assets/cohort-3-promo.png" alt="AI Automation Launchpad Cohort 3 promotional poster" />
+                </div>
+              </div>
+
               {/* Social Proof: Cohort Zero demand */}
               <div className="proof-card reveal">
                 <div>
@@ -281,7 +294,7 @@ function App() {
                   </p>
                 </div>
                 <div className="proof-img-container">
-                  <img src="/assets/cohort-3-promo.png" alt="AI Automation Launchpad Cohort 3 promotional poster" />
+                  <img src="/assets/cohort-zero-group.jpg" alt="AI Automation Launchpad Cohort Zero WhatsApp group — 61 members" />
                 </div>
               </div>
             </div>
