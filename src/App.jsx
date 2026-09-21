@@ -281,7 +281,7 @@ function App() {
                   </p>
                 </div>
                 <div className="proof-img-container">
-                  <img src="/assets/cohort-zero-group.jpg" alt="AI Automation Launchpad Cohort Zero WhatsApp group — 61 members" />
+                  <img src="/assets/cohort-3-promo.png" alt="AI Automation Launchpad Cohort 3 promotional poster" />
                 </div>
               </div>
             </div>

@@ -100,8 +100,8 @@ function WaitlistPage() {
           <div className="wl-proof-inner reveal">
             <div className="wl-proof-img-wrap">
               <img
-                src="/assets/cohort-zero-group.jpg"
-                alt="AI Automation Launchpad Cohort Zero WhatsApp group — 61 members"
+                src="/assets/cohort-3-promo.png"
+                alt="AI Automation Launchpad Cohort 3 promotional poster"
               />
             </div>
             <div className="wl-proof-copy">
